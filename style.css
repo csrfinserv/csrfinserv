@@ -12,13 +12,24 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    padding: 80px 40px;
+    justify-content: center;
+
+    padding: 80px 0;
 
     background-color: #231F20;
     border: 5px solid white;
 
-    color: white
+    color: white;
     }
+
+    .header-content {
+        border-bottom: 20px solid #F7965B;
+        padding: 0 30px;
+        }
+        .header-content > * {
+            max-width: 800px;
+            margin: auto;
+            }
 
     .title {
         text-transform: uppercase;
@@ -32,7 +43,6 @@ header {
             letter-spacing: 1px;
             font-size: .9em;
             }
-    
     .contact-item {
         display: flex;
         flex-direction: row;
@@ -45,4 +55,45 @@ header {
             }
             .contact-icon img {
                 width: 30px;
+                }
+    .content-services {
+        padding: 30px;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        }
+        .content-services h2 {
+            color: #F7965B;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            }
+            .content-services h2:before, 
+            .content-services h2:after {
+                content: '';
+                position: absolute;
+                width: 35%;
+                display: block;
+                padding: 2px;
+                background-color: #F7965B;
+                top: 50%;
+                }
+                .content-services h2:before {
+                    left: 0;
+                    }
+                .content-services h2:after {
+                    right: 0;
+                    }
+        .services-blocks {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            }
+            .ser-block {
+                width: 45%;
+                text-align: center;
+                padding: 10px;
+                margin-bottom: 10px;
                 }
