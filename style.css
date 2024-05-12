@@ -25,10 +25,30 @@ header {
     .header-content {
         border-bottom: 20px solid #F7965B;
         padding: 0 30px;
+        padding-bottom: 30px;
+        display: flex;
         }
-        .header-content > * {
+        .header-stuff {
+            width: 100%;
             max-width: 800px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
             margin: auto;
+            }
+        .logo {
+            border-radius: 50%;
+            border: 10px solid #F7965B;
+            width: 320px;
+            height: 320px;
+            background-image: url(images/logo.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 50% auto;
             }
 
     .title {
