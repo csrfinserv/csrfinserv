@@ -1,0 +1,48 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    }
+
+body {
+    font-family: "Lato", sans-serif;
+    }
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+
+    background-color: #231F20;
+    border: 5px solid white;
+
+    color: white
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-bottom: 30px;
+        }
+        .colored-text {
+            color: #F7965B;
+            }
+        .title p {
+            letter-spacing: 1px;
+            font-size: .9em;
+            }
+    
+    .contact-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-bottom: 20px;
+        }
+        .contact-icon {
+            margin-right: 10px;
+            }
+            .contact-icon img {
+                width: 30px;
+                }
