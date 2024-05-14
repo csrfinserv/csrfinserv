@@ -172,10 +172,14 @@ header {
             }
             .brand-trust_header {
                 width: 100%;
+                margin-bottom: 20px;
                 }
             .brand-trust_icons {
                 width: 50%;
+                padding: 10px;
+                text-align: center;
                 }
                 .brand-trust_icons img {
-                    width: 100%;
+                    width: 144px;
+                    height: 48px;
                     }
