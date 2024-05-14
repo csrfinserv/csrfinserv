@@ -56,6 +56,11 @@ header {
 
             margin: auto;
             }
+            @media (max-width: 628px) {
+                .header-stuff {
+                    flex-direction: column-reverse;
+                    }
+                }
         .logo {
             border-radius: 50%;
             border: 10px solid #F7965B;
@@ -121,6 +126,15 @@ header {
                 .content-services h2:after {
                     right: 0;
                     }
+                @media (max-width: 645px) {
+                    .content-services h2 {
+                        border-bottom: 5px solid #F7965B;
+                        }
+                    .content-services h2:before, 
+                    .content-services h2:after {
+                        display: none;
+                        }
+                    }
         .services-blocks {
             display: flex;
             flex-direction: row;
@@ -154,6 +168,12 @@ header {
 
                 margin-bottom: 10px;
                 }
+                @media (max-width: 670px) {
+                    .benefit-blk {
+                        width: 100%;
+                        max-width: 100%;
+                        }
+                    }
                 .benefit-icon {
                     padding: 3px;
                     opacity: .8;
